@@ -127,13 +127,45 @@
     margin-left: 20px;
 }
 
-.icon {
+.icon1 {
     cursor: pointer;
     background: none;
     border: none;
     padding: 0;
     color: inherit;
+    background-image: url("icons/favorites.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
 }
+
+.icon2 {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    background-image: url("icons/user.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.icon3 {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    background-image: url("icons/vector.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
 
 .icon:hover {
     color: black;

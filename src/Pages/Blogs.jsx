@@ -2,8 +2,8 @@ import React from 'react';
 import '../reset.css';
 export default function Blogs() {
     return (
-        <div>
-
-        </div>
+        <>
+            <h1>Blogs</h1>
+        </>
     );
 }

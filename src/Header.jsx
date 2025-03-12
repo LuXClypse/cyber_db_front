@@ -42,14 +42,14 @@ function Header() {
             )}
 
             <div className="icons">
-                <button className="icon">
-                    <Heart size={22}/>
+                <button className="icon1">
+
                 </button>
-                <button className="icon">
-                    <ShoppingCart size={22}/>
+                <button className="icon2">
+
                 </button>
-                <button className="icon">
-                    <User size={22}/>
+                <button className="icon3">
+
                 </button>
             </div>
 
