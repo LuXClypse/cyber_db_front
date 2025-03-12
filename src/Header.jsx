@@ -1,6 +1,7 @@
-import { Search, Heart, ShoppingCart, User, Menu, X } from 'lucide-react';
+import { Search, Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../reset.css';
+import '../reset.scss';
 export default function Blogs() {
     return (
         <>

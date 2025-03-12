@@ -5,7 +5,7 @@ import Home from './Pages/Home.jsx';
 import About from './Pages/About.jsx';
 import Contact from './Pages/Contact.jsx';
 import Blogs from './Pages/Blogs.jsx';
-import './reset.css';
+import './reset.scss';
 
 
 function App() {
