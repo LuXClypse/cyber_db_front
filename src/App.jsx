@@ -7,18 +7,18 @@ import Contact from './Pages/Contact.jsx';
 import Blogs from './Pages/Blogs.jsx';
 import './reset.scss';
 
-
 function App() {
     return (
         <Router>
             <Header />
             <Routes>
-                <Route path="/" />
+                <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/blog" element={<Blogs />} />
             </Routes>
+
         </Router>
     );
 }

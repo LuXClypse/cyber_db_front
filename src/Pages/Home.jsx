@@ -1,9 +1,13 @@
 import React from 'react';
 import '../reset.scss';
+import Iphone from "../Hero/Iphone_container.jsx";
+import HeroProducts from "../Hero/Hero-Products.jsx";
+
 export default function Home() {
     return (
-        <>
-          <h1>HOME</h1>
-        </>
+        <div>
+            <Iphone />
+            <HeroProducts />
+        </div>
     );
 }
