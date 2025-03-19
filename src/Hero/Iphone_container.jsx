@@ -1,6 +1,6 @@
 import React from 'react';
 import '../reset.scss';
-
+import '../Module/Iphone.module.css';
 export default function Iphone() {
     return (
         <div className="iphone-container">

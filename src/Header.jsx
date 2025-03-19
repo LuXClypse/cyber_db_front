@@ -1,7 +1,7 @@
 import { Search, Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-
+import './Module/Header.module.css'
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

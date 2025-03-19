@@ -6,6 +6,9 @@ import About from './Pages/About.jsx';
 import Contact from './Pages/Contact.jsx';
 import Blogs from './Pages/Blogs.jsx';
 import './reset.scss';
+import './Module/Header.module.css';
+import './Module/Products.module.css';
+import './Module/Iphone.module.css';
 
 function App() {
     return (

@@ -1,0 +1,263 @@
+.full-container {
+    display: flex;
+    width: 100vw;
+    height: 632px;
+    overflow: hidden;
+}
+
+.half-container1 {
+    height: 632px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    display: flex;
+    width: 1000px;
+}
+
+.macbook-half-1 {
+    height: 632px;
+    width: 600px;
+    margin-left: auto;
+}
+
+.macbook-half-2 {
+    height: 632px;
+    width: 320px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mac-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.mac-title1 {
+    font-size: 60px;
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+.mac-title2 {
+    font-size: 60px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.mac-description {
+    font-size: 16px;
+    color: grey;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.shop-now {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: 2px solid black;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.shop-now:hover {
+    background: black;
+    color: white;
+    transform: scale(1.05);
+}
+
+.macbook-half-image {
+    height: 550px;
+    width: 320px;
+    background-image: url("images/Hero-banner2/MacBook.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero-full-ps5-container {
+    height: 316px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ps5-image {
+    height: 316px;
+    width: 300px;
+    background-image: url("images/Hero-banner2/PlayStation.png");
+    overflow: hidden;
+}
+
+.ps5-text-container {
+    height: 316px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ps5-title {
+    color: black;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+}
+
+.ps5-description {
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+}
+
+.hero-half-container {
+    display: flex;
+    width: 1000px;
+}
+
+.hero-half-Apple-airpods-max-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 316px;
+    width: 500px;
+}
+
+.hero-half-Apple-vision-pro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 316px;
+    width: 500px;
+    background-color: #211c24;
+}
+
+.half-halves {
+    height: 316px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.max-image {
+    height: 316px;
+    width: 130px;
+    background-image: url("images/Hero-banner2/airpods-max.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.max-image2 {
+    height: 316px;
+    width: 150px;
+    background-image: url("images/Hero-banner2/vision.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.max-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    padding-right: 100px;
+}
+
+.max-title1, .max-title2, .max-title3 {
+    font-size: 24px;
+    margin: 5px 0;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.max-text-container .max-title4 {
+    font-size: 24px;
+    margin: 5px 0;
+    line-height: 1.2;
+    font-weight: normal !important;
+    color: white;
+}
+
+.max-description1, .max-description2 {
+    font-size: 14px;
+    margin-top: 5px;
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    .full-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-container,
+    .right-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-full-ps5-container,
+    .half-halves {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ps5-image,
+    .max-image,
+    .max-image2,
+    .macbook-half-image {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .mac-text-container,
+    .ps5-text-container,
+    .max-text-container {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero-half-Apple-airpods-max-container,
+    .hero-half-Apple-vision-pro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .macbook-half-1,
+    .macbook-half-2 {
+        width: 100%;
+        height: auto;
+    }
+}

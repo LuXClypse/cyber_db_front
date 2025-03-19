@@ -1,4 +1,3 @@
-
 import { createRoot } from 'react-dom/client'
 import './reset.scss'
 import App from './App.jsx'
