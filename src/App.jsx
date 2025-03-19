@@ -9,6 +9,7 @@ import './reset.scss';
 import './Module/Header.module.css';
 import './Module/Products.module.css';
 import './Module/Iphone.module.css';
+import './Module/Products.module.css';
 
 function App() {
     return (
